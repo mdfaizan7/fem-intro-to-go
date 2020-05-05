@@ -37,8 +37,8 @@ func groceries(newGroceries ...string) {
 	fmt.Println(foods)
 }
 
-// func main() {
-// 	fmt.Println(avgScores([5]float64{4, 5, 6, 7, 8}))
-// 	fmt.Println(petNames("Fido"))
-// 	groceries("rice", "wheat")
-// }
+func main() {
+	fmt.Println(avgScores([5]float64{4, 5, 6, 7, 8}))
+	fmt.Println(petNames("Fido"))
+	groceries("rice", "wheat")
+}
