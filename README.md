@@ -1,7 +1,6 @@
-# Go for JavaScript Developers
+This repository contains all the exercise I did in the Go for JavaScript Developers course in Frontend Masters.
 
-Prepared for Frontend Masters
-September, 2019
+# Go for JavaScript Developers
 
 ## How To Use This Repo
 
