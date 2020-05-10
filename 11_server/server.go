@@ -19,11 +19,11 @@ type PageVariables struct {
 	PageTodos []Todo
 }
 
+var todos []Todo
+
 func home(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Home!")
 }
-
-var todos []Todo
 
 func getTodos(w http.ResponseWriter, r *http.Request) {
 	pageVariables := PageVariables{
